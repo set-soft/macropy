@@ -1,0 +1,15 @@
+Source: python3-macropy
+Section: Python
+Priority: optional
+Maintainer: Salvador E. Tropea <stropea@inti.gob.ar>
+Build-Depends: debhelper (>=11~), dh-python, python3-all
+Standards-Version: 4.1.4
+Homepage: https://github.com/lihaoyi/macropy
+X-Python3-Version: >= 3.2
+
+Package: python3-macropy
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Python syntatic macros
+ Macros in Python: quasiquotes, case classes, LINQ and more!

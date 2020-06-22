@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # -*- coding: utf-8; mode: python -*-
 from pathlib import Path
 from setuptools import find_packages, setup
